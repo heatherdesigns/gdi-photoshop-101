@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700,900);
 
 @font-face {
   font-family: "Gotham";
@@ -38,7 +39,7 @@ body {
   background-color: white; }
 
 .reveal {
-  font-family: "Gotham-Round", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 36px;
   font-weight: 300;
   color: #53555C; }
@@ -51,6 +52,11 @@ body {
 .blue {color:#00A9B4;}
 .green {color: #92BB44;}
 .orange {color: #EDAB23;}
+.raspberry {color: #7d214b;}
+.peach {color: #bf4e49;}
+.blackberry {color: #1a1735;}
+.pink-grapefruit {color: #ebac9d;}
+.kiwi {color: #86a89f;}
 .left {float: left;}
 .right {float: right;}
 
@@ -64,22 +70,22 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #f05b62;
-  font-family: "Gotham-Round", Impact, sans-serif;
-  font-weight: 300;
+  color: #7d214b;
+  font-family: "Montserrat", Impact, sans-serif;
+  font-weight: 700;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: none;
   text-shadow: none; }
 
-.reveal section[data-background="#f05b62"] h2, .reveal section[data-background="#f05b62"] h1 {color: #fafafa;}
+.reveal section[data-background="#86a89f"] h2, .reveal section[data-background="#86a89f"] h1 {color: #fafafa;}
 .reveal h1 {margin: 0 0 30px;}
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color:  #f05b62;
+  color:  #86a89f;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -119,7 +125,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color:  #f05b62;
+  border-color:  #86a89f;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -127,20 +133,20 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color:  #f05b62; }
+  border-right-color:  #7d214b; }
 
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color:  #f05b62; }
+  border-left-color:  #7d214b; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color:  #f05b62; }
+  border-bottom-color:  #7d214b; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color:  #f05b62; }
+  border-top-color:  #7d214b; }
 
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #53555C; }
@@ -161,7 +167,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background:  #f05b62;
+  background:  #86a89f;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -178,16 +184,16 @@ body {
     z-index: 10;
     font-size: 35%;
     text-align:left;
-    background-image: url(../images/pink-logo.png);
+    /* background-image: url(../images/pink-logo.png); */
     background-repeat: no-repeat;
     background-size: auto 74%;
     background-position: 7px 0;
     font-family:;
 }
 .reveal footer .copyright{
-    margin:7px 9px 0 110px;
+    margin: 7px 9px 0 20px;
 }
 .reveal footer .copyright a img{
     vertical-align: middle;
 }
-.reveal footer span {color: #f05b62;}
+.reveal footer span {color: #86a89f;}
