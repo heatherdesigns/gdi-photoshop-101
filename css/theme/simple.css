@@ -73,6 +73,9 @@ body {
   color: #7d214b;
   font-family: "Montserrat", Impact, sans-serif;
   font-weight: 700;
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: none;
@@ -85,7 +88,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color:  #86a89f;
+  color:  #bf4e49;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -94,13 +97,20 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #0000f1;
+  color: #ebac9d;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
   background: #00003f; }
+
+/*********************************************
+ * LISTS
+ *********************************************/
+
+ .reveal ul {
+   color: #ebac9d;}
 
 /*********************************************
  * IMAGES
