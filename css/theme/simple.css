@@ -109,8 +109,18 @@ body {
  * LISTS
  *********************************************/
 
- .reveal ul {
-   color: #ebac9d;}
+.reveal ul {
+   color: #53555C;
+   line-height: 1.4em;
+   list-style: none;
+ }
+
+.reveal li::before {
+   content: "✓";
+   color: #ebac9d;
+   display: inline-block;
+   margin-left: -1.15em;
+   width: 1.15em;}
 
 /*********************************************
  * IMAGES
